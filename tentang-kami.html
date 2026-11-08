@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tentang Kami — Studio Kreatif</title>
+    <meta
+      name="description"
+      content="Kenali Studio Kreatif: cerita kami, visi dan misi, nilai yang kami pegang, serta tim di balik setiap karya cetak foto berbingkai, banner, desain, dan video."
+    />
+    <meta name="theme-color" content="#14213D" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/variables.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314213D'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' fill='%23C9A24B' text-anchor='middle'%3ESK%3C/text%3E%3C/svg%3E"
+    />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("sk-theme");
+          if (t) document.documentElement.setAttribute("data-theme", t);
+          document.documentElement.classList.add("js");
+        } catch (e) {
+          document.documentElement.classList.add("js");
+        }
+      })();
+    </script>
+  </head>
+
+  <body class="page-about">
+    <a class="visually-hidden-focusable" href="#main">Lewati ke konten utama</a>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header is-solid" id="siteHeader">
+      <div class="container">
+        <div class="header-inner">
+          <a class="brand" href="index.html" aria-label="Beranda Studio Kreatif">
+            <span class="brand-mark" aria-hidden="true">SK</span>
+            <span class="brand-text">
+              <strong data-brand>Studio Kreatif</strong>
+              <small>Desain • Cetak • Video</small>
+            </span>
+          </a>
+
+          <ul class="nav-menu d-none d-lg-flex">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="katalog.html">Katalog</a></li>
+            <li><a class="is-active" href="tentang-kami.html">Tentang Kami</a></li>
+            <li><a href="lokasi.html">Lokasi</a></li>
+          </ul>
+
+          <div class="header-actions">
+            <button
+              class="icon-btn theme-toggle"
+              id="themeToggle"
+              type="button"
+              aria-label="Aktifkan mode gelap"
+              title="Ganti tema"
+            >
+              <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+              <i class="bi bi-sun-fill" aria-hidden="true"></i>
+            </button>
+            <a class="btn btn-gold btn-sm d-none d-sm-inline-flex" href="#" data-wa>
+              Mulai Pesan
+            </a>
+            <button
+              class="menu-toggle d-lg-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobileMenu"
+              aria-controls="mobileMenu"
+              aria-label="Buka menu"
+            >
+              <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= OFFCANVAS ================= -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="mobileMenu"
+      aria-labelledby="mobileMenuLabel"
+    >
+      <div class="offcanvas-header">
+        <span class="brand" id="mobileMenuLabel">
+          <span class="brand-mark" aria-hidden="true">SK</span>
+          <span class="brand-text">
+            <strong data-brand>Studio Kreatif</strong>
+            <small>Desain • Cetak • Video</small>
+          </span>
+        </span>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Tutup menu"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column">
+        <nav class="nav flex-column mb-4">
+          <a class="nav-link" href="index.html">Beranda</a>
+          <a class="nav-link" href="katalog.html">Katalog</a>
+          <a class="nav-link is-active" href="tentang-kami.html">Tentang Kami</a>
+          <a class="nav-link" href="lokasi.html">Lokasi</a>
+        </nav>
+        <a class="btn btn-gold w-100 mb-3" href="#" data-wa>Mulai Pesan</a>
+        <a class="btn btn-outline-navy w-100" href="#" data-wa>Chat WhatsApp</a>
+        <div class="offcanvas-contact mt-4">
+          <div class="mb-2"><i class="bi bi-geo-alt text-gold me-2"></i><span data-address>Alamat studio</span></div>
+          <div class="mb-2"><i class="bi bi-telephone text-gold me-2"></i><span data-phone>Nomor WhatsApp</span></div>
+          <div><i class="bi bi-envelope text-gold me-2"></i><a data-email href="#">email</a></div>
+        </div>
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- ================= PAGE HERO ================= -->
+      <section class="page-hero">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Tentang Kami</li>
+            </ol>
+          </nav>
+          <h1>Tentang Kami</h1>
+          <p>
+            Studio kreatif yang tumbuh dari kecintaan pada karya visual — merangkai
+            ide, cetak, dan sentuhan akhir menjadi sesuatu yang layak dikenang.
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= CERITA KAMI ================= -->
+      <section class="section" id="cerita" aria-labelledby="ceritaTitle">
+        <div class="container">
+          <div class="row align-items-center g-4 g-lg-5">
+            <div class="col-lg-5 reveal">
+              <div class="about-media">
+                <img
+                  src="https://picsum.photos/seed/sk-about-studio/900/1100"
+                  alt="Suasana studio kreatif dengan karya cetak dan bingkai"
+                  width="900"
+                  height="1100"
+                  loading="lazy"
+                />
+                <span class="about-badge">
+                  <i class="bi bi-geo-alt me-1" aria-hidden="true"></i>
+                  Berbasis di Plumbon, Cirebon
+                </span>
+              </div>
+            </div>
+
+            <div class="col-lg-7 reveal reveal-delay-1">
+              <span class="eyebrow">Cerita Kami</span>
+              <h2 class="section-title" id="ceritaTitle">Dari ide menjadi karya nyata.</h2>
+              <p class="section-subtitle mb-3">
+                Studio Kreatif hadir untuk menjawab kebutuhan visual masyarakat
+                Plumbon dan sekitarnya. Kami percaya bahwa karya yang baik lahir dari
+                proses yang rapi: mendengarkan, merancang, lalu mengeksekusi dengan
+                teliti.
+              </p>
+              <p class="text-muted-2 mb-4">
+                Berawal dari layanan cetak foto berbingkai, kini kami juga mengerjakan
+                banner &amp; spanduk, desain grafis custom, hingga produksi video.
+                Setiap pesanan melewati tahap preview, sehingga Anda melihat hasilnya
+                sebelum masuk produksi.
+              </p>
+
+              <ul class="about-list mb-4">
+                <li>
+                  <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                  <span>Bahan dan tinta pilihan untuk hasil yang tahan lama.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                  <span>Preview desain sebelum dicetak atau diproduksi.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                  <span>Komunikasi langsung via WhatsApp, tanpa ribet.</span>
+                </li>
+              </ul>
+
+              <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-gold" href="#" data-wa>
+                  <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Konsultasi Gratis
+                </a>
+                <a class="btn btn-outline-navy" href="katalog.html">
+                  Lihat Katalog <i class="bi bi-arrow-right ms-1" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-2 row-cols-lg-4 g-3 mt-4 mt-lg-5">
+            <div class="col reveal">
+              <div class="about-stat">
+                <strong>1.200+</strong>
+                <span>Pesanan selesai</span>
+              </div>
+            </div>
+            <div class="col reveal reveal-delay-1">
+              <div class="about-stat">
+                <strong>4.9/5</strong>
+                <span>Rating pelanggan</span>
+              </div>
+            </div>
+            <div class="col reveal reveal-delay-2">
+              <div class="about-stat">
+                <strong>4</strong>
+                <span>Layanan utama</span>
+              </div>
+            </div>
+            <div class="col reveal reveal-delay-3">
+              <div class="about-stat">
+                <strong>100%</strong>
+                <span>Preview sebelum produksi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= VISI & MISI ================= -->
+      <section class="section section-alt" id="visi-misi" aria-labelledby="visiMisiTitle">
+        <div class="container">
+          <div class="section-head mx-auto text-center mb-4 reveal">
+            <span class="eyebrow">Visi &amp; Misi</span>
+            <h2 class="section-title" id="visiMisiTitle">Arah yang kami tuju.</h2>
+            <p class="section-subtitle">
+              Dua hal yang menjaga setiap karya kami tetap konsisten.
+            </p>
+          </div>
+
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-5 reveal">
+              <div class="value-card h-100">
+                <span class="value-icon"><i class="bi bi-bullseye" aria-hidden="true"></i></span>
+                <h3>Visi</h3>
+                <p>
+                  Menjadi studio kreatif terpercaya di Cirebon yang menghadirkan karya
+                  visual berkualitas, terjangkau, dan mudah diakses siapa saja.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 reveal reveal-delay-1">
+              <div class="value-card h-100">
+                <span class="value-icon"><i class="bi bi-list-check" aria-hidden="true"></i></span>
+                <h3>Misi</h3>
+                <ul class="about-list mb-0">
+                  <li>
+                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                    <span>Memberi pelayanan ramah dan komunikasi yang jelas.</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                    <span>Menjaga kualitas bahan, cetak, dan finishing.</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                    <span>Menyelesaikan pesanan tepat waktu sesuai kesepakatan.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= NILAI KAMI ================= -->
+      <section class="section" id="nilai" aria-labelledby="nilaiTitle">
+        <div class="container">
+          <div class="section-head mx-auto text-center mb-4 reveal">
+            <span class="eyebrow">Nilai Kami</span>
+            <h2 class="section-title" id="nilaiTitle">Yang kami pegang setiap hari.</h2>
+            <p class="section-subtitle">
+              Bukan sekadar janji, tapi cara kami bekerja.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-4 reveal">
+              <div class="value-card h-100 text-center">
+                <span class="value-icon mx-auto"><i class="bi bi-award" aria-hidden="true"></i></span>
+                <h3>Kualitas</h3>
+                <p>
+                  Bahan, tinta, dan finishing dipilih agar hasil rapi dan tahan lama.
+                  Kami cek sebelum pesanan diserahkan.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 reveal reveal-delay-1">
+              <div class="value-card h-100 text-center">
+                <span class="value-icon mx-auto"><i class="bi bi-clock-history" aria-hidden="true"></i></span>
+                <h3>Tepat Waktu</h3>
+                <p>
+                  Estimasi pengerjaan disampaikan sejak awal. Jika ada perubahan, Anda
+                  kami kabari lebih dulu.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 reveal reveal-delay-2">
+              <div class="value-card h-100 text-center">
+                <span class="value-icon mx-auto"><i class="bi bi-chat-heart" aria-hidden="true"></i></span>
+                <h3>Ramah &amp; Transparan</h3>
+                <p>
+                  Harga dan proses dijelaskan terbuka. Kami bantu memilih yang paling
+                  sesuai kebutuhan dan anggaran Anda.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TIM ================= -->
+      <section class="section section-alt" id="tim" aria-labelledby="timTitle">
+        <div class="container">
+          <div class="section-head mx-auto text-center mb-4 reveal">
+            <span class="eyebrow">Tim Kami</span>
+            <h2 class="section-title" id="timTitle">Di balik setiap karya Anda.</h2>
+            <p class="section-subtitle">
+              Tiga peran yang saling melengkapi dari ide sampai karya jadi.
+            </p>
+          </div>
+
+          <div class="row g-4 justify-content-center">
+            <div class="col-sm-6 col-lg-4 reveal">
+              <div class="team-card h-100">
+                <span class="team-avatar"><i class="bi bi-palette" aria-hidden="true"></i></span>
+                <h3>Tim Desain</h3>
+                <span class="team-role">Konsep &amp; visual</span>
+                <p class="text-muted-2 small mt-2 mb-0">
+                  Merancang layout, memilih tipografi, dan menyiapkan preview sebelum
+                  produksi.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 reveal reveal-delay-1">
+              <div class="team-card h-100">
+                <span class="team-avatar"><i class="bi bi-printer" aria-hidden="true"></i></span>
+                <h3>Tim Produksi</h3>
+                <span class="team-role">Cetak &amp; finishing</span>
+                <p class="text-muted-2 small mt-2 mb-0">
+                  Menangani cetak, perakitan bingkai, dan pengecekan kualitas akhir.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 reveal reveal-delay-2">
+              <div class="team-card h-100">
+                <span class="team-avatar"><i class="bi bi-headset" aria-hidden="true"></i></span>
+                <h3>Tim Layanan</h3>
+                <span class="team-role">Konsultasi &amp; pesanan</span>
+                <p class="text-muted-2 small mt-2 mb-0">
+                  Mendampingi Anda dari pertanyaan awal hingga pesanan diterima.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CTA ================= -->
+      <section class="section pb-5" aria-labelledby="ctaAboutTitle">
+        <div class="container">
+          <div class="cta-band reveal">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-8">
+                <span class="eyebrow text-warning">Siap bekerja sama?</span>
+                <h2 id="ctaAboutTitle">Mari wujudkan karya Anda berikutnya.</h2>
+                <p class="mt-3">
+                  Ceritakan kebutuhan Anda, tim kami siap membantu memilih layanan,
+                  ukuran, dan bahan yang paling sesuai.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex flex-wrap gap-3 justify-content-lg-end">
+                  <a class="btn btn-gold" href="#" data-wa>
+                    <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Chat Kami
+                  </a>
+                  <a class="btn btn-ghost-light" href="katalog.html">Lihat Katalog</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <a class="brand footer-brand" href="index.html">
+              <span class="brand-mark" aria-hidden="true">SK</span>
+              <span class="brand-text">
+                <strong data-brand>Studio Kreatif</strong>
+                <small>Desain • Cetak • Video</small>
+              </span>
+            </a>
+            <p>
+              Studio kreatif untuk cetak foto berbingkai, banner &amp; spanduk,
+              desain grafis, dan produksi video.
+            </p>
+            <div class="social-links">
+              <a href="#" data-social="instagram" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+              <a href="#" data-social="tiktok" aria-label="TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+              <a href="#" data-social="facebook" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+              <a href="#" data-wa aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3>Layanan</h3>
+            <ul class="footer-links">
+              <li><a href="katalog.html?kategori=bingkai">Cetak Foto &amp; Bingkai</a></li>
+              <li><a href="katalog.html?kategori=banner">Banner &amp; Spanduk</a></li>
+              <li><a href="katalog.html?kategori=desain">Desain Grafis</a></li>
+              <li><a href="katalog.html?kategori=video">Edit Video</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3>Bantuan</h3>
+            <ul class="footer-links">
+              <li><a href="katalog.html#harga">Daftar Harga</a></li>
+              <li><a href="tentang-kami.html">Tentang Kami</a></li>
+              <li><a href="lokasi.html#faq">FAQ</a></li>
+              <li><a href="lokasi.html#kontak">Kontak</a></li>
+              <li><a href="lokasi.html">Lokasi Studio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>Kontak</h3>
+            <ul class="footer-contact">
+              <li><i class="bi bi-geo-alt" aria-hidden="true"></i><span data-address>Alamat studio</span></li>
+              <li><i class="bi bi-whatsapp" aria-hidden="true"></i><a href="#" data-wa><span data-phone>Nomor WhatsApp</span></a></li>
+              <li><i class="bi bi-envelope" aria-hidden="true"></i><a data-email href="mailto:dikyanwar22@gmail.com">dikyanwar22@gmail.com</a></li>
+              <li><i class="bi bi-clock" aria-hidden="true"></i><span>Senin – Minggu 08.00 – 18.00 WIB</span></li>
+            </ul>
+            <div class="pay-badges mt-3">
+              <span>Transfer Bank</span>
+              <span>QRIS</span>
+              <span>E-Wallet</span>
+              <span>COD*</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
+          <span>© <span data-year>2026</span> <span data-brand>Studio Kreatif</span>. Semua hak dilindungi.</span>
+          <span class="d-flex gap-3">
+            <a href="lokasi.html#faq">Kebijakan Privasi</a>
+            <a href="lokasi.html#faq">Syarat &amp; Ketentuan</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================= FLOATING ACTIONS ================= -->
+    <div class="floating-actions" aria-label="Aksi cepat">
+      <a class="fab fab-wa" href="#" data-wa aria-label="Chat WhatsApp" title="Chat WhatsApp">
+        <i class="bi bi-whatsapp" aria-hidden="true"></i>
+      </a>
+      <button class="fab fab-top" id="scrollTop" type="button" aria-label="Kembali ke atas" title="Kembali ke atas">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <!-- ================= TOAST ================= -->
+    <div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3 mb-5">
+      <div id="siteToast" class="toast align-items-center border-0" role="status" aria-live="polite" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body"></div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Tutup"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
