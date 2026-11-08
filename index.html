@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Studio Kreatif — Desain, Cetak Foto Berbingkai, Banner & Video</title>
+    <meta
+      name="description"
+      content="Studio Kreatif melayani cetak foto berbingkai premium, banner & spanduk, desain grafis custom, dan edit video. Dari ide menjadi karya nyata."
+    />
+    <meta name="theme-color" content="#14213D" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/variables.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314213D'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' fill='%23C9A24B' text-anchor='middle'%3ESK%3C/text%3E%3C/svg%3E"
+    />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("sk-theme");
+          if (t) document.documentElement.setAttribute("data-theme", t);
+          document.documentElement.classList.add("js");
+        } catch (e) {
+          document.documentElement.classList.add("js");
+        }
+      })();
+    </script>
+  </head>
+
+  <body class="page-home">
+    <a class="visually-hidden-focusable" href="#main">Lewati ke konten utama</a>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header site-header--overlay" id="siteHeader">
+      <div class="container">
+        <div class="header-inner">
+          <a class="brand" href="index.html" aria-label="Beranda Studio Kreatif">
+            <span class="brand-mark" aria-hidden="true">SK</span>
+            <span class="brand-text">
+              <strong data-brand>Studio Kreatif</strong>
+              <small>Desain • Cetak • Video</small>
+            </span>
+          </a>
+
+          <ul class="nav-menu d-none d-lg-flex">
+            <li><a class="is-active" href="index.html">Beranda</a></li>
+            <li><a href="katalog.html">Katalog</a></li>
+            <li><a href="lokasi.html">Lokasi</a></li>
+          </ul>
+
+          <div class="header-actions">
+            <button
+              class="icon-btn theme-toggle"
+              id="themeToggle"
+              type="button"
+              aria-label="Aktifkan mode gelap"
+              title="Ganti tema"
+            >
+              <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+              <i class="bi bi-sun-fill" aria-hidden="true"></i>
+            </button>
+            <a class="btn btn-gold btn-sm d-none d-sm-inline-flex" href="katalog.html">
+              Mulai Pesan
+            </a>
+            <button
+              class="menu-toggle d-lg-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobileMenu"
+              aria-controls="mobileMenu"
+              aria-label="Buka menu"
+            >
+              <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= OFFCANVAS ================= -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="mobileMenu"
+      aria-labelledby="mobileMenuLabel"
+    >
+      <div class="offcanvas-header">
+        <span class="brand" id="mobileMenuLabel">
+          <span class="brand-mark" aria-hidden="true">SK</span>
+          <span class="brand-text">
+            <strong data-brand>Studio Kreatif</strong>
+            <small>Desain • Cetak • Video</small>
+          </span>
+        </span>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Tutup menu"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column">
+        <nav class="nav flex-column mb-4">
+          <a class="nav-link is-active" href="index.html">Beranda</a>
+          <a class="nav-link" href="katalog.html">Katalog</a>
+          <a class="nav-link" href="lokasi.html">Lokasi</a>
+        </nav>
+        <a class="btn btn-gold w-100 mb-3" href="katalog.html">Mulai Pesan</a>
+        <a class="btn btn-outline-navy w-100" href="#" data-wa>Chat WhatsApp</a>
+        <div class="offcanvas-contact mt-4">
+          <div class="mb-2"><i class="bi bi-geo-alt text-gold me-2"></i><span data-address>Alamat studio</span></div>
+          <div class="mb-2"><i class="bi bi-telephone text-gold me-2"></i><span data-phone>Nomor WhatsApp</span></div>
+          <div><i class="bi bi-envelope text-gold me-2"></i><a data-email href="#">email</a></div>
+        </div>
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- ================= HERO ================= -->
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="https://picsum.photos/seed/sk-hero-studio/1920/1200"
+            alt=""
+            width="1920"
+            height="1200"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="hero-content">
+            <span class="hero-eyebrow">
+              <i class="bi bi-stars" aria-hidden="true"></i>
+              Desain • Cetak • Video
+            </span>
+            <h1 id="heroTitle">
+              Dari ide menjadi <span class="accent">karya</span> yang berkesan.
+            </h1>
+            <p class="hero-sub">
+              Cetak foto berbingkai premium, banner &amp; spanduk, desain custom,
+              hingga edit video — dikerjakan rapi oleh tim studio kami dengan
+              preview sebelum diproduksi.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-gold" href="katalog.html">
+                <i class="bi bi-bag-check me-2" aria-hidden="true"></i>Mulai Pesan
+              </a>
+              <a class="btn btn-ghost-light" href="#" data-wa>
+                <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Konsultasi Gratis
+              </a>
+            </div>
+
+            <div class="hero-meta">
+              <div class="item">
+                <strong>1.200+</strong>
+                <span>Pesanan selesai</span>
+              </div>
+              <div class="item">
+                <strong>4.9/5</strong>
+                <span>Rating pelanggan</span>
+              </div>
+              <div class="item">
+                <strong>5–7 hari</strong>
+                <span>Waktu produksi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="hero-scroll" href="#layanan" aria-label="Gulir ke layanan">
+          <i class="bi bi-chevron-double-down" aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <!-- ================= TRUST STRIP ================= -->
+      <div class="trust-strip">
+        <div class="container">
+          <div class="trust-card reveal">
+            <div class="trust-item">
+              <i class="bi bi-award" aria-hidden="true"></i>
+              <div>
+                <strong>Kualitas cetak premium</strong>
+                <small>Tinta &amp; bahan pilihan</small>
+              </div>
+            </div>
+            <div class="trust-item">
+              <i class="bi bi-box-seam" aria-hidden="true"></i>
+              <div>
+                <strong>Pengiriman aman</strong>
+                <small>Kemasan kokoh &amp; rapi</small>
+              </div>
+            </div>
+            <div class="trust-item">
+              <i class="bi bi-arrow-repeat" aria-hidden="true"></i>
+              <div>
+                <strong>Revisi gratis</strong>
+                <small>Sampai Anda puas</small>
+              </div>
+            </div>
+            <div class="trust-item">
+              <i class="bi bi-shield-check" aria-hidden="true"></i>
+              <div>
+                <strong>Garansi puas</strong>
+                <small>Cetak ulang jika cacat</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= LAYANAN ================= -->
+      <section class="section" id="layanan" aria-labelledby="layananTitle">
+        <div class="container">
+          <div class="section-head mx-auto text-center mb-5 reveal">
+            <span class="eyebrow">Layanan Kami</span>
+            <h2 class="section-title" id="layananTitle">
+              Empat layanan, satu studio.
+            </h2>
+            <p class="section-subtitle">
+              Semua kebutuhan visual dan cetak Anda ditangani oleh tim yang sama —
+              konsisten, rapi, dan siap diproduksi.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-sm-6 col-xl-3 reveal">
+              <a class="service-card" href="katalog.html?kategori=bingkai">
+                <span class="service-media">
+                  <img
+                    src="https://picsum.photos/seed/sk-service-frame/640/480"
+                    alt="Contoh foto keluarga dalam bingkai kayu"
+                    width="640"
+                    height="480"
+                    loading="lazy"
+                  />
+                  <span class="service-icon"><i class="bi bi-image" aria-hidden="true"></i></span>
+                </span>
+                <span class="service-body">
+                  <h3>Cetak Foto &amp; Bingkai</h3>
+                  <p>
+                    Bingkai kayu, aluminium, dan minimalis dengan preview
+                    real-time sebelum dicetak.
+                  </p>
+                  <span class="service-link">
+                    Lihat pilihan <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                  </span>
+                </span>
+              </a>
+            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3 reveal reveal-delay-1">
+              <a class="service-card" href="katalog.html?kategori=banner">
+                <span class="service-media">
+                  <img
+                    src="https://picsum.photos/seed/sk-service-banner/640/480"
+                    alt="Spanduk dan banner promosi di depan toko"
+                    width="640"
+                    height="480"
+                    loading="lazy"
+                  />
+                  <span class="service-icon"><i class="bi bi-flag" aria-hidden="true"></i></span>
+                </span>
+                <span class="service-body">
+                  <h3>Banner &amp; Spanduk</h3>
+                  <p>
+                    Flexi, albatros, X-banner, roll-up, hingga backdrop event.
+                    Harga per m² transparan.
+                  </p>
+                  <span class="service-link">
+                    Lihat pilihan <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                  </span>
+                </span>
+              </a>
+            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3 reveal reveal-delay-2">
+              <a class="service-card" href="katalog.html?kategori=desain">
+                <span class="service-media">
+                  <img
+                    src="https://picsum.photos/seed/sk-service-design/640/480"
+                    alt="Ruang kerja desainer grafis dengan monitor"
+                    width="640"
+                    height="480"
+                    loading="lazy"
+                  />
+                  <span class="service-icon"><i class="bi bi-palette" aria-hidden="true"></i></span>
+                </span>
+                <span class="service-body">
+                  <h3>Desain Grafis Custom</h3>
+                  <p>
+                    Logo, feed sosial media, poster promosi. Edit sendiri atau
+                    serahkan ke tim kami.
+                  </p>
+                  <span class="service-link">
+                    Lihat pilihan <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                  </span>
+                </span>
+              </a>
+            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3 reveal reveal-delay-3">
+              <a class="service-card" href="katalog.html?kategori=video">
+                <span class="service-media">
+                  <img
+                    src="https://picsum.photos/seed/sk-service-video/640/480"
+                    alt="Kamera video dan perlengkapan produksi"
+                    width="640"
+                    height="480"
+                    loading="lazy"
+                  />
+                  <span class="service-icon"><i class="bi bi-camera-video" aria-hidden="true"></i></span>
+                </span>
+                <span class="service-body">
+                  <h3>Desain &amp; Edit Video</h3>
+                  <p>
+                    Reels, company profile, wedding, hingga motion graphic dengan
+                    paket fleksibel.
+                  </p>
+                  <span class="service-link">
+                    Lihat pilihan <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CARA KERJA ================= -->
+      <section class="section section-alt" aria-labelledby="caraKerjaTitle">
+        <div class="container">
+          <div class="row align-items-end mb-5">
+            <div class="col-lg-7 reveal">
+              <span class="eyebrow">Cara Kerja</span>
+              <h2 class="section-title" id="caraKerjaTitle">Empat langkah, tanpa ribet.</h2>
+              <p class="section-subtitle">
+                Alur yang jelas dari pemesanan sampai karya tiba di tangan Anda.
+              </p>
+            </div>
+            <div class="col-lg-5 text-lg-end mt-4 mt-lg-0 reveal">
+              <a class="btn btn-outline-navy" href="katalog.html">
+                Mulai dari katalog <i class="bi bi-arrow-right ms-1" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-3 reveal">
+              <div class="step-card">
+                <div class="step-num">01</div>
+                <h3>Pilih layanan &amp; ukuran</h3>
+                <p>Jelajahi katalog, tentukan produk, ukuran, dan bahan favorit Anda.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 reveal reveal-delay-1">
+              <div class="step-card">
+                <div class="step-num">02</div>
+                <h3>Upload foto / kirim brief</h3>
+                <p>Unggah file siap cetak atau ceritakan kebutuhan desain Anda.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 reveal reveal-delay-2">
+              <div class="step-card">
+                <div class="step-num">03</div>
+                <h3>Konfirmasi &amp; bayar</h3>
+                <p>Kami kirim preview. Setelah Anda setuju, pesanan masuk produksi.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 reveal reveal-delay-3">
+              <div class="step-card">
+                <div class="step-num">04</div>
+                <h3>Produksi &amp; terima</h3>
+                <p>Dikerjakan rapi, dikemas aman, lalu dikirim atau siap diambil.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PORTOFOLIO ================= -->
+      <section class="section" aria-labelledby="portofolioTitle">
+        <div class="container">
+          <div class="row align-items-end mb-5">
+            <div class="col-lg-8 reveal">
+              <span class="eyebrow">Portofolio</span>
+              <h2 class="section-title" id="portofolioTitle">Karya yang berbicara.</h2>
+              <p class="section-subtitle">
+                Sebagian hasil produksi pelanggan kami — dari bingkai wisuda sampai
+                spanduk event.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end mt-4 mt-lg-0 reveal">
+              <a class="btn btn-outline-navy" href="katalog.html">
+                Lihat semua karya <i class="bi bi-arrow-right ms-1" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-grid reveal">
+            <a class="portfolio-item" href="katalog.html?kategori=bingkai">
+              <img
+                src="https://picsum.photos/seed/sk-port-wisuda/600/760"
+                alt="Foto wisuda dalam bingkai kayu"
+                width="600"
+                height="760"
+                loading="lazy"
+              />
+              <span class="portfolio-overlay">
+                <span class="cat">Foto Berbingkai</span>
+                <strong>Bingkai Wisuda Klasik</strong>
+              </span>
+            </a>
+            <a class="portfolio-item" href="katalog.html?kategori=banner">
+              <img
+                src="https://picsum.photos/seed/sk-port-toko/600/450"
+                alt="Spanduk promosi toko"
+                width="600"
+                height="450"
+                loading="lazy"
+              />
+              <span class="portfolio-overlay">
+                <span class="cat">Banner &amp; Spanduk</span>
+                <strong>Spanduk Toko Flexi</strong>
+              </span>
+            </a>
+            <a class="portfolio-item" href="katalog.html?kategori=desain">
+              <img
+                src="https://picsum.photos/seed/sk-port-feed/600/600"
+                alt="Desain feed sosial media"
+                width="600"
+                height="600"
+                loading="lazy"
+              />
+              <span class="portfolio-overlay">
+                <span class="cat">Desain Grafis</span>
+                <strong>Feed Sosial Media</strong>
+              </span>
+            </a>
+            <a class="portfolio-item" href="katalog.html?kategori=video">
+              <img
+                src="https://picsum.photos/seed/sk-port-wedding/600/700"
+                alt="Cuplikan video pernikahan"
+                width="600"
+                height="700"
+                loading="lazy"
+              />
+              <span class="portfolio-overlay">
+                <span class="cat">Video</span>
+                <strong>Wedding Film</strong>
+              </span>
+            </a>
+            <a class="portfolio-item" href="katalog.html?kategori=banner">
+              <img
+                src="https://picsum.photos/seed/sk-port-rollup/600/450"
+                alt="Roll-up banner di acara"
+                width="600"
+                height="450"
+                loading="lazy"
+              />
+              <span class="portfolio-overlay">
+                <span class="cat">Banner &amp; Spanduk</span>
+                <strong>Roll-Up Event</strong>
+              </span>
+            </a>
+            <a class="portfolio-item" href="katalog.html?kategori=bingkai">
+              <img
+                src="https://picsum.photos/seed/sk-port-family/600/520"
+                alt="Foto keluarga besar dalam bingkai"
+                width="600"
+                height="520"
+                loading="lazy"
+              />
+              <span class="portfolio-overlay">
+                <span class="cat">Foto Berbingkai</span>
+                <strong>Foto Keluarga Besar</strong>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= UKURAN POPULER ================= -->
+      <section class="section section-alt" aria-labelledby="ukuranTitle">
+        <div class="container">
+          <div class="section-head mx-auto text-center mb-5 reveal">
+            <span class="eyebrow">Ukuran Populer</span>
+            <h2 class="section-title" id="ukuranTitle">Mulai dari ukuran favorit.</h2>
+            <p class="section-subtitle">
+              Harga dummy — sesuaikan di <code>assets/js/config.js</code> dan data harga.
+            </p>
+          </div>
+
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+            <div class="col reveal">
+              <div class="size-card text-center">
+                <div class="dim">4R</div>
+                <span class="text-muted-2 small">10 × 15 cm</span>
+                <span class="price">Rp 45.000</span>
+              </div>
+            </div>
+            <div class="col reveal reveal-delay-1">
+              <div class="size-card text-center">
+                <div class="dim">8R</div>
+                <span class="text-muted-2 small">20 × 25 cm</span>
+                <span class="price">Rp 85.000</span>
+              </div>
+            </div>
+            <div class="col reveal reveal-delay-2">
+              <div class="size-card text-center">
+                <div class="dim">12R</div>
+                <span class="text-muted-2 small">30 × 40 cm</span>
+                <span class="price">Rp 165.000</span>
+              </div>
+            </div>
+            <div class="col reveal reveal-delay-3">
+              <div class="size-card text-center">
+                <div class="dim">A3</div>
+                <span class="text-muted-2 small">29,7 × 42 cm</span>
+                <span class="price">Rp 190.000</span>
+              </div>
+            </div>
+            <div class="col reveal reveal-delay-3">
+              <div class="size-card text-center">
+                <div class="dim">50×70</div>
+                <span class="text-muted-2 small">50 × 70 cm</span>
+                <span class="price">Rp 420.000</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4 reveal">
+            <a class="btn btn-gold" href="katalog.html?kategori=bingkai">
+              Lihat semua ukuran <i class="bi bi-arrow-right ms-1" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TESTIMONI ================= -->
+      <section class="section" aria-labelledby="testimoniTitle">
+        <div class="container">
+          <div class="section-head mx-auto text-center mb-5 reveal">
+            <span class="eyebrow">Testimoni</span>
+            <h2 class="section-title" id="testimoniTitle">Kata pelanggan kami.</h2>
+            <p class="section-subtitle">
+              Kepuasan pelanggan adalah standar kualitas kami.
+            </p>
+          </div>
+
+          <div id="testimonialCarousel" class="carousel slide reveal" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonial-card">
+                  <i class="bi bi-quote quote-icon" aria-hidden="true"></i>
+                  <div class="stars" aria-label="Rating 5 dari 5">★★★★★</div>
+                  <blockquote>
+                    “Bingkainya rapi banget, warna emasnya elegan. Ada preview dulu
+                    sebelum dicetak, jadi saya yakin hasilnya.”
+                  </blockquote>
+                  <div class="testimonial-person">
+                    <img
+                      src="https://i.pravatar.cc/100?img=47"
+                      alt="Foto Rani"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                    />
+                    <div class="text-start">
+                      <strong>Rani Puspita</strong>
+                      <span>Pelanggan bingkai wisuda</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-card">
+                  <i class="bi bi-quote quote-icon" aria-hidden="true"></i>
+                  <div class="stars" aria-label="Rating 5 dari 5">★★★★★</div>
+                  <blockquote>
+                    “Spanduk toko saya jadi dalam dua hari. Harga per meter jelas dan
+                    hasilnya tajam. Recommended untuk UMKM.”
+                  </blockquote>
+                  <div class="testimonial-person">
+                    <img
+                      src="https://i.pravatar.cc/100?img=12"
+                      alt="Foto Budi"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                    />
+                    <div class="text-start">
+                      <strong>Budi Santoso</strong>
+                      <span>Pemilik Nusa Coffee</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-card">
+                  <i class="bi bi-quote quote-icon" aria-hidden="true"></i>
+                  <div class="stars" aria-label="Rating 5 dari 5">★★★★★</div>
+                  <blockquote>
+                    “Edit video wedding-nya halus dan emosional. Revisi cepat
+                    ditanggapi, komunikasinya juga nyaman.”
+                  </blockquote>
+                  <div class="testimonial-person">
+                    <img
+                      src="https://i.pravatar.cc/100?img=32"
+                      alt="Foto Sinta"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                    />
+                    <div class="text-start">
+                      <strong>Sinta Maharani</strong>
+                      <span>Pengantin — Wedding Film</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Testimoni 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="1"
+                aria-label="Testimoni 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="2"
+                aria-label="Testimoni 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= LOGO KLIEN ================= -->
+      <section class="pb-5" aria-label="Klien dan mitra">
+        <div class="container">
+          <p class="text-center text-muted-2 small text-uppercase mb-4" style="letter-spacing: 0.16em">
+            Dipercaya oleh UMKM, event organizer, dan brand lokal
+          </p>
+          <div class="logo-strip reveal">
+            <span>ARUNA</span>
+            <span>Nusa Coffee</span>
+            <span>Kayu &amp; Co</span>
+            <span>Eventa</span>
+            <span>Bumi Studio</span>
+            <span>Senja</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CTA ================= -->
+      <section class="pb-5" aria-labelledby="ctaTitle">
+        <div class="container">
+          <div class="cta-band reveal">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-7">
+                <span class="eyebrow text-warning">Siap memulai?</span>
+                <h2 id="ctaTitle">Siap membuat karya Anda berikutnya?</h2>
+                <p class="mt-3">
+                  Konsultasi gratis via WhatsApp, atau kirim email untuk kebutuhan
+                  korporat dan event.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mt-4">
+                  <a class="btn btn-gold" href="#" data-wa>
+                    <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Chat WhatsApp
+                  </a>
+                  <a class="btn btn-ghost-light" href="katalog.html">Jelajahi Katalog</a>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <form class="newsletter-form" data-demo-form data-success="Terima kasih! Anda sudah berlangganan info promo (demo).">
+                  <label class="form-label text-white" for="newsletterEmail">
+                    Dapatkan info promo &amp; tips desain
+                  </label>
+                  <div class="input-group">
+                    <input
+                      class="form-control"
+                      id="newsletterEmail"
+                      type="email"
+                      placeholder="Email Anda"
+                      aria-label="Email Anda"
+                      required
+                    />
+                    <button class="btn btn-gold" type="submit" aria-label="Berlangganan">
+                      <i class="bi bi-send" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div class="invalid-feedback">Masukkan email yang valid.</div>
+                  <p class="small text-white-50 mt-2 mb-0">
+                    Kami tidak mengirim spam. Berhenti berlangganan kapan saja.
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <a class="brand footer-brand" href="index.html">
+              <span class="brand-mark" aria-hidden="true">SK</span>
+              <span class="brand-text">
+                <strong data-brand>Studio Kreatif</strong>
+                <small>Desain • Cetak • Video</small>
+              </span>
+            </a>
+            <p>
+              Studio kreatif untuk cetak foto berbingkai, banner &amp; spanduk,
+              desain grafis, dan produksi video. Dari ide menjadi karya nyata.
+            </p>
+            <div class="social-links">
+              <a href="#" data-social="instagram" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+              <a href="#" data-social="tiktok" aria-label="TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+              <a href="#" data-social="facebook" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+              <a href="#" data-wa aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3>Layanan</h3>
+            <ul class="footer-links">
+              <li><a href="katalog.html?kategori=bingkai">Cetak Foto &amp; Bingkai</a></li>
+              <li><a href="katalog.html?kategori=banner">Banner &amp; Spanduk</a></li>
+              <li><a href="katalog.html?kategori=desain">Desain Grafis</a></li>
+              <li><a href="katalog.html?kategori=video">Edit Video</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3>Bantuan</h3>
+            <ul class="footer-links">
+              <li><a href="katalog.html#harga">Daftar Harga</a></li>
+              <li><a href="lokasi.html#faq">FAQ</a></li>
+              <li><a href="lokasi.html#kontak">Kontak</a></li>
+              <li><a href="lokasi.html">Lokasi Studio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>Kontak</h3>
+            <ul class="footer-contact">
+              <li>
+                <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                <span data-address>Alamat studio</span>
+              </li>
+              <li>
+                <i class="bi bi-whatsapp" aria-hidden="true"></i>
+                <a href="#" data-wa><span data-phone>Nomor WhatsApp</span></a>
+              </li>
+              <li>
+                <i class="bi bi-envelope" aria-hidden="true"></i>
+                <a data-email href="mailto:dikyanwar22@gmail.com">dikyanwar22@gmail.com</a>
+              </li>
+              <li>
+                <i class="bi bi-clock" aria-hidden="true"></i>
+                <span>Senin – Minggu 08.00 – 18.00 WIB</span>
+              </li>
+            </ul>
+            <div class="pay-badges mt-3">
+              <span>Transfer Bank</span>
+              <span>QRIS</span>
+              <span>E-Wallet</span>
+              <span>COD*</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
+          <span>© <span data-year>2026</span> <span data-brand>Studio Kreatif</span>. Semua hak dilindungi.</span>
+          <span class="d-flex gap-3">
+            <a href="lokasi.html#faq">Kebijakan Privasi</a>
+            <a href="lokasi.html#faq">Syarat &amp; Ketentuan</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================= FLOATING ACTIONS ================= -->
+    <div class="floating-actions" aria-label="Aksi cepat">
+      <a class="fab fab-wa" href="#" data-wa aria-label="Chat WhatsApp" title="Chat WhatsApp">
+        <i class="bi bi-whatsapp" aria-hidden="true"></i>
+      </a>
+      <button class="fab fab-top" id="scrollTop" type="button" aria-label="Kembali ke atas" title="Kembali ke atas">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <!-- ================= TOAST ================= -->
+    <div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3 mb-5">
+      <div id="siteToast" class="toast align-items-center border-0" role="status" aria-live="polite" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body"></div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Tutup"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+/* =========================================================
+   Studio Kreatif — Design Tokens
+   Palet: navy + emas, latar off-white, tipografi serif/sans.
+   Ubah nilai di :root untuk mengganti tema seluruh situs.
+   ========================================================= */
+
+:root {
+  /* Brand */
+  --sk-navy: #14213d;
+  --sk-navy-deep: #0b1426;
+  --sk-navy-soft: #1b2b4d;
+  --sk-gold: #c9a24b;
+  --sk-gold-soft: #e3c98b;
+  --sk-gold-dark: #a9843a;
+
+  /* Netral */
+  --sk-bg: #faf8f5;
+  --sk-bg-alt: #f2ede4;
+  --sk-surface: #ffffff;
+  --sk-heading: #14213d;
+  --sk-text: #1f2430;
+  --sk-muted: #6b7280;
+  --sk-border: rgba(20, 33, 61, 0.1);
+  --sk-outline: rgba(20, 33, 61, 0.28);
+
+  /* Status */
+  --sk-success: #2e7d5b;
+  --sk-danger: #b3261e;
+
+  /* Bentuk & efek */
+  --sk-radius: 16px;
+  --sk-radius-sm: 10px;
+  --sk-radius-lg: 24px;
+  --sk-shadow: 0 12px 30px rgba(20, 33, 61, 0.09);
+  --sk-shadow-lg: 0 24px 60px rgba(20, 33, 61, 0.14);
+  --sk-transition: 200ms ease;
+
+  /* Tipografi */
+  --sk-font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sk-font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+
+  /* Override Bootstrap */
+  --bs-body-font-family: var(--sk-font-body);
+  --bs-body-color: var(--sk-text);
+  --bs-body-bg: var(--sk-bg);
+  --bs-primary: #c9a24b;
+  --bs-primary-rgb: 201, 162, 75;
+  --bs-link-color: #14213d;
+  --bs-link-hover-color: #a9843a;
+  --bs-border-color: rgba(20, 33, 61, 0.1);
+}
+
+/* ---------- Dark mode ---------- */
+html[data-theme="dark"] {
+  --sk-bg: #0c1424;
+  --sk-bg-alt: #0f1a2e;
+  --sk-surface: #14203a;
+  --sk-heading: #f3f6fc;
+  --sk-text: #e6eaf2;
+  --sk-muted: #a2abbc;
+  --sk-border: rgba(255, 255, 255, 0.12);
+  --sk-outline: rgba(255, 255, 255, 0.3);
+  --sk-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  --sk-shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.45);
+
+  --bs-body-color: #e6eaf2;
+  --bs-body-bg: #0c1424;
+  --bs-link-color: #f3f6fc;
+  --bs-link-hover-color: #e3c98b;
+  --bs-border-color: rgba(255, 255, 255, 0.12);
+  color-scheme: dark;
+}

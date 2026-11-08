@@ -1,0 +1,575 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lokasi &amp; Kontak â€” Studio Kreatif</title>
+    <meta
+      name="description"
+      content="Kunjungi Studio Kreatif: alamat, jam operasional, peta lokasi, WhatsApp, email, dan formulir kontak."
+    />
+    <meta name="theme-color" content="#14213D" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/variables.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314213D'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' fill='%23C9A24B' text-anchor='middle'%3ESK%3C/text%3E%3C/svg%3E"
+    />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("sk-theme");
+          if (t) document.documentElement.setAttribute("data-theme", t);
+          document.documentElement.classList.add("js");
+        } catch (e) {
+          document.documentElement.classList.add("js");
+        }
+      })();
+    </script>
+  </head>
+
+  <body class="page-location">
+    <a class="visually-hidden-focusable" href="#main">Lewati ke konten utama</a>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header is-solid" id="siteHeader">
+      <div class="container">
+        <div class="header-inner">
+          <a class="brand" href="index.html" aria-label="Beranda Studio Kreatif">
+            <span class="brand-mark" aria-hidden="true">SK</span>
+            <span class="brand-text">
+              <strong data-brand>Studio Kreatif</strong>
+              <small>Desain â€¢ Cetak â€¢ Video</small>
+            </span>
+          </a>
+
+          <ul class="nav-menu d-none d-lg-flex">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="katalog.html">Katalog</a></li>
+            <li><a class="is-active" href="lokasi.html">Lokasi</a></li>
+          </ul>
+
+          <div class="header-actions">
+            <button
+              class="icon-btn theme-toggle"
+              id="themeToggle"
+              type="button"
+              aria-label="Aktifkan mode gelap"
+              title="Ganti tema"
+            >
+              <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+              <i class="bi bi-sun-fill" aria-hidden="true"></i>
+            </button>
+            <a class="btn btn-gold btn-sm d-none d-sm-inline-flex" href="#" data-wa>
+              Mulai Pesan
+            </a>
+            <button
+              class="menu-toggle d-lg-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobileMenu"
+              aria-controls="mobileMenu"
+              aria-label="Buka menu"
+            >
+              <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= OFFCANVAS ================= -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="mobileMenu"
+      aria-labelledby="mobileMenuLabel"
+    >
+      <div class="offcanvas-header">
+        <span class="brand" id="mobileMenuLabel">
+          <span class="brand-mark" aria-hidden="true">SK</span>
+          <span class="brand-text">
+            <strong data-brand>Studio Kreatif</strong>
+            <small>Desain â€¢ Cetak â€¢ Video</small>
+          </span>
+        </span>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Tutup menu"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column">
+        <nav class="nav flex-column mb-4">
+          <a class="nav-link" href="index.html">Beranda</a>
+          <a class="nav-link" href="katalog.html">Katalog</a>
+          <a class="nav-link is-active" href="lokasi.html">Lokasi</a>
+        </nav>
+        <a class="btn btn-gold w-100 mb-3" href="#" data-wa>Mulai Pesan</a>
+        <a class="btn btn-outline-navy w-100" href="#" data-wa>Chat WhatsApp</a>
+        <div class="offcanvas-contact mt-4">
+          <div class="mb-2"><i class="bi bi-geo-alt text-gold me-2"></i><span data-address>Alamat studio</span></div>
+          <div class="mb-2"><i class="bi bi-telephone text-gold me-2"></i><span data-phone>Nomor WhatsApp</span></div>
+          <div><i class="bi bi-envelope text-gold me-2"></i><a data-email href="#">email</a></div>
+        </div>
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- ================= PAGE HERO ================= -->
+      <section class="page-hero">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Lokasi &amp; Kontak</li>
+            </ol>
+          </nav>
+          <h1>Lokasi &amp; Kontak</h1>
+          <p>
+            Mampir ke studio untuk melihat sampel bahan, atau hubungi kami untuk
+            konsultasi cepat via WhatsApp.
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= LOKASI ================= -->
+      <section class="section" id="lokasi" aria-labelledby="lokasiTitle">
+        <div class="container">
+          <div class="section-head mb-4 reveal">
+            <span class="eyebrow">Kunjungi Studio</span>
+            <h2 class="section-title" id="lokasiTitle">Kami menanti kunjungan Anda.</h2>
+            <p class="section-subtitle">
+              Parkir tersedia di depan studio. Disarankan membuat janji via WhatsApp
+              untuk konsultasi desain yang lebih mendalam.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-7 reveal">
+              <div class="map-frame">
+                <iframe
+                  id="locationMap"
+                  title="Peta lokasi Studio Kreatif"
+                  src="https://www.google.com/maps?q=Plumbon%2C%20Kab.%20Cirebon%2C%20Jawa%20Barat&output=embed"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="row g-3">
+                <div class="col-sm-6 reveal">
+                  <div class="info-tile">
+                    <span class="ic"><i class="bi bi-geo-alt" aria-hidden="true"></i></span>
+                    <div>
+                      <h3>Alamat</h3>
+                      <p data-address>Plumbon, Kab. Cirebon Jawa Barat</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 reveal reveal-delay-1">
+                  <div class="info-tile">
+                    <span class="ic"><i class="bi bi-whatsapp" aria-hidden="true"></i></span>
+                    <div>
+                      <h3>WhatsApp</h3>
+                      <p><a href="#" data-wa data-phone>Nomor WhatsApp</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 reveal reveal-delay-2">
+                  <div class="info-tile">
+                    <span class="ic"><i class="bi bi-envelope" aria-hidden="true"></i></span>
+                    <div>
+                      <h3>Email</h3>
+                      <p><a data-email href="mailto:dikyanwar22@gmail.com">dikyanwar22@gmail.com</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 reveal reveal-delay-3">
+                  <div class="info-tile">
+                    <span class="ic"><i class="bi bi-clock" aria-hidden="true"></i></span>
+                    <div>
+                      <h3>Jam Buka</h3>
+                      <p>Senin – Minggu 08.00 – 18.00 WIB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 reveal">
+                  <div class="p-3 p-md-4 rounded-3 border" style="background: var(--sk-surface); border-color: var(--sk-border) !important">
+                    <h3 class="h6 mb-3"><i class="bi bi-calendar-week text-gold me-2" aria-hidden="true"></i>Jam Operasional</h3>
+                    <ul class="hours-list" id="hoursList">
+                      <li><span class="day">Senin – Minggu</span><span class="time">08.00 – 18.00 WIB</span></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-12 reveal">
+                  <div class="p-3 p-md-4 rounded-3 border" style="background: var(--sk-surface); border-color: var(--sk-border) !important">
+                    <h3 class="h6 mb-3"><i class="bi bi-signpost-2 text-gold me-2" aria-hidden="true"></i>Petunjuk Arah</h3>
+                    <ul class="list-unstyled small text-muted-2 mb-0 d-grid gap-2">
+                      <li><i class="bi bi-check2 text-gold me-2"></i>Berada di area Plumbon, Kab. Cirebon.</li>
+                      <li><i class="bi bi-check2 text-gold me-2"></i>Mudah diakses dari jalan utama Plumbon.</li>
+                      <li><i class="bi bi-check2 text-gold me-2"></i>Parkir mobil &amp; motor tersedia di halaman studio.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= KONTAK ================= -->
+      <section class="section section-alt" id="kontak" aria-labelledby="kontakTitle">
+        <div class="container">
+          <div class="row g-4 align-items-start">
+            <div class="col-lg-5 reveal">
+              <span class="eyebrow">Hubungi Kami</span>
+              <h2 class="section-title" id="kontakTitle">Ceritakan kebutuhan Anda.</h2>
+              <p class="section-subtitle mb-4">
+                Isi formulir di samping atau langsung chat WhatsApp. Kami balas pada
+                jam operasional, biasanya dalam 1â€“2 jam.
+              </p>
+
+              <ul class="list-unstyled d-grid gap-3 mb-4">
+                <li class="d-flex gap-3">
+                  <span class="ic" style="width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center; background: rgba(201, 162, 75, 0.15); color: var(--sk-gold-dark); flex: 0 0 auto"><i class="bi bi-whatsapp" aria-hidden="true"></i></span>
+                  <div>
+                    <strong class="d-block" style="color: var(--sk-heading)">WhatsApp</strong>
+                    <a class="text-decoration-none text-muted-2" href="#" data-wa><span data-phone>Nomor WhatsApp</span></a>
+                  </div>
+                </li>
+                <li class="d-flex gap-3">
+                  <span class="ic" style="width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center; background: rgba(201, 162, 75, 0.15); color: var(--sk-gold-dark); flex: 0 0 auto"><i class="bi bi-envelope" aria-hidden="true"></i></span>
+                  <div>
+                    <strong class="d-block" style="color: var(--sk-heading)">Email</strong>
+                    <a class="text-decoration-none text-muted-2" data-email href="mailto:dikyanwar22@gmail.com">dikyanwar22@gmail.com</a>
+                  </div>
+                </li>
+                <li class="d-flex gap-3">
+                  <span class="ic" style="width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center; background: rgba(201, 162, 75, 0.15); color: var(--sk-gold-dark); flex: 0 0 auto"><i class="bi bi-geo-alt" aria-hidden="true"></i></span>
+                  <div>
+                    <strong class="d-block" style="color: var(--sk-heading)">Alamat</strong>
+                    <span class="text-muted-2" data-address>Alamat studio</span>
+                  </div>
+                </li>
+              </ul>
+
+              <a class="btn btn-gold" href="#" data-wa>
+                <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Chat WhatsApp Sekarang
+              </a>
+            </div>
+
+            <div class="col-lg-7 reveal">
+              <div class="p-4 p-md-5 rounded-4 border" style="background: var(--sk-surface); border-color: var(--sk-border) !important; box-shadow: var(--sk-shadow)">
+                <form data-demo-form data-success="Terima kasih! Pesan Anda sudah terkirim (demo). Kami akan segera menghubungi Anda." novalidate>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label" for="nama">Nama lengkap</label>
+                      <input class="form-control" id="nama" name="nama" type="text" placeholder="Nama Anda" required />
+                      <div class="invalid-feedback">Mohon isi nama Anda.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label" for="kontakPelanggan">WhatsApp / Email</label>
+                      <input class="form-control" id="kontakPelanggan" name="kontak" type="text" placeholder="08xx atau email" required />
+                      <div class="invalid-feedback">Mohon isi kontak yang bisa dihubungi.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label" for="kebutuhan">Jenis kebutuhan</label>
+                      <select class="form-select" id="kebutuhan" name="kebutuhan" required>
+                        <option value="" selected disabled>Pilih layanan</option>
+                        <option>Cetak Foto &amp; Bingkai</option>
+                        <option>Banner &amp; Spanduk</option>
+                        <option>Desain Grafis</option>
+                        <option>Desain &amp; Edit Video</option>
+                        <option>Lainnya</option>
+                      </select>
+                      <div class="invalid-feedback">Pilih salah satu layanan.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label" for="deadline">Target selesai (opsional)</label>
+                      <input class="form-control" id="deadline" name="deadline" type="date" />
+                    </div>
+                    <div class="col-12">
+                      <label class="form-label" for="pesan">Pesan / brief</label>
+                      <textarea class="form-control" id="pesan" name="pesan" rows="5" placeholder="Ceritakan ukuran, jumlah, referensi, atau kebutuhan Anda..." required></textarea>
+                      <div class="invalid-feedback">Mohon isi pesan Anda.</div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" id="setuju" type="checkbox" required />
+                        <label class="form-check-label small text-muted-2" for="setuju">
+                          Saya setuju dihubungi melalui WhatsApp/email untuk membahas pesanan ini.
+                        </label>
+                        <div class="invalid-feedback">Centang persetujuan untuk melanjutkan.</div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-gold w-100" type="submit">
+                        <i class="bi bi-send me-2" aria-hidden="true"></i>Kirim Pesan
+                      </button>
+                      <p class="small text-muted-2 text-center mt-2 mb-0">
+                        Formulir ini demo. Pada Fase 2 akan terhubung ke backend.
+                      </p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= FAQ ================= -->
+      <section class="section" id="faq" aria-labelledby="faqTitle">
+        <div class="container">
+          <div class="section-head mx-auto text-center mb-4 reveal">
+            <span class="eyebrow">FAQ</span>
+            <h2 class="section-title" id="faqTitle">Pertanyaan yang sering ditanyakan.</h2>
+            <p class="section-subtitle">Belum menemukan jawaban? Chat kami kapan saja.</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <div class="accordion reveal" id="faqAccordion">
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqHeading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                      Berapa lama proses produksi?
+                    </button>
+                  </h3>
+                  <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-muted-2">
+                      Cetak foto berbingkai umumnya 3â€“5 hari kerja. Banner dan spanduk
+                      1â€“2 hari kerja. Edit video 3â€“7 hari tergantung paket. Waktu mulai
+                      dihitung setelah desain disetujui.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqHeading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                      Apakah bisa kirim ke luar kota?
+                    </button>
+                  </h3>
+                  <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-muted-2">
+                      Bisa. Pengiriman memakai ekspedisi rekanan dengan kemasan kayu
+                      untuk bingkai besar. Ongkir dihitung terpisah sesuai tujuan.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqHeading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                      Berapa resolusi foto minimal untuk dicetak?
+                    </button>
+                  </h3>
+                  <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-muted-2">
+                      Untuk ukuran kecil (4Râ€“8R), minimal 1500 px sisi terpanjang. Untuk
+                      cetak besar, minimal 3000 px. Kami akan memberi peringatan jika
+                      resolusi foto terlalu rendah.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqHeading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                      Apakah ada revisi desain?
+                    </button>
+                  </h3>
+                  <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-muted-2">
+                      Ada. Jumlah revisi mengikuti paket yang dipilih. Kami selalu
+                      mengirim preview sebelum produksi agar Anda yakin dengan hasilnya.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqHeading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                      Metode pembayaran apa saja yang tersedia?
+                    </button>
+                  </h3>
+                  <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-muted-2">
+                      Transfer bank, QRIS, dan e-wallet. COD tersedia untuk area kota
+                      tertentu. Pembayaran dilakukan setelah preview disetujui.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqHeading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                      Bisakah ambil sendiri di studio?
+                    </button>
+                  </h3>
+                  <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-muted-2">
+                      Bisa, dan gratis. Kami akan menghubungi Anda via WhatsApp ketika
+                      pesanan siap diambil di studio.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-center mt-4 reveal">
+                <a class="btn btn-outline-navy" href="#" data-wa>
+                  <i class="bi bi-chat-dots me-2" aria-hidden="true"></i>Tanya hal lain
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CTA ================= -->
+      <section class="pb-5" aria-labelledby="ctaLokasiTitle">
+        <div class="container">
+          <div class="cta-band reveal">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-8">
+                <span class="eyebrow text-warning">Konsultasi gratis</span>
+                <h2 id="ctaLokasiTitle">Bingung memilih ukuran atau bahan?</h2>
+                <p class="mt-3">
+                  Bawa file foto atau kirim via WhatsApp. Kami bantu rekomendasikan
+                  bingkai, banner, atau paket video yang paling sesuai.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex flex-wrap gap-3 justify-content-lg-end">
+                  <a class="btn btn-gold" href="#" data-wa>
+                    <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Chat Kami
+                  </a>
+                  <a class="btn btn-ghost-light" href="katalog.html">Lihat Katalog</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <a class="brand footer-brand" href="index.html">
+              <span class="brand-mark" aria-hidden="true">SK</span>
+              <span class="brand-text">
+                <strong data-brand>Studio Kreatif</strong>
+                <small>Desain â€¢ Cetak â€¢ Video</small>
+              </span>
+            </a>
+            <p>
+              Studio kreatif untuk cetak foto berbingkai, banner &amp; spanduk,
+              desain grafis, dan produksi video.
+            </p>
+            <div class="social-links">
+              <a href="#" data-social="instagram" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+              <a href="#" data-social="tiktok" aria-label="TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+              <a href="#" data-social="facebook" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+              <a href="#" data-wa aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3>Layanan</h3>
+            <ul class="footer-links">
+              <li><a href="katalog.html?kategori=bingkai">Cetak Foto &amp; Bingkai</a></li>
+              <li><a href="katalog.html?kategori=banner">Banner &amp; Spanduk</a></li>
+              <li><a href="katalog.html?kategori=desain">Desain Grafis</a></li>
+              <li><a href="katalog.html?kategori=video">Edit Video</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3>Bantuan</h3>
+            <ul class="footer-links">
+              <li><a href="katalog.html#harga">Daftar Harga</a></li>
+              <li><a href="lokasi.html#faq">FAQ</a></li>
+              <li><a href="lokasi.html#kontak">Kontak</a></li>
+              <li><a href="lokasi.html">Lokasi Studio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>Kontak</h3>
+            <ul class="footer-contact">
+              <li><i class="bi bi-geo-alt" aria-hidden="true"></i><span data-address>Alamat studio</span></li>
+              <li><i class="bi bi-whatsapp" aria-hidden="true"></i><a href="#" data-wa><span data-phone>Nomor WhatsApp</span></a></li>
+              <li><i class="bi bi-envelope" aria-hidden="true"></i><a data-email href="mailto:dikyanwar22@gmail.com">dikyanwar22@gmail.com</a></li>
+              <li><i class="bi bi-clock" aria-hidden="true"></i><span>Senin – Minggu 08.00 – 18.00 WIB</span></li>
+            </ul>
+            <div class="pay-badges mt-3">
+              <span>Transfer Bank</span>
+              <span>QRIS</span>
+              <span>E-Wallet</span>
+              <span>COD*</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
+          <span>Â© <span data-year>2026</span> <span data-brand>Studio Kreatif</span>. Semua hak dilindungi.</span>
+          <span class="d-flex gap-3">
+            <a href="lokasi.html#faq">Kebijakan Privasi</a>
+            <a href="lokasi.html#faq">Syarat &amp; Ketentuan</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================= FLOATING ACTIONS ================= -->
+    <div class="floating-actions" aria-label="Aksi cepat">
+      <a class="fab fab-wa" href="#" data-wa aria-label="Chat WhatsApp" title="Chat WhatsApp">
+        <i class="bi bi-whatsapp" aria-hidden="true"></i>
+      </a>
+      <button class="fab fab-top" id="scrollTop" type="button" aria-label="Kembali ke atas" title="Kembali ke atas">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <!-- ================= TOAST ================= -->
+    <div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3 mb-5">
+      <div id="siteToast" class="toast align-items-center border-0" role="status" aria-live="polite" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body"></div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Tutup"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+

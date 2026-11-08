@@ -1,0 +1,679 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Katalog &amp; Harga â€” Studio Kreatif</title>
+    <meta
+      name="description"
+      content="Katalog lengkap Studio Kreatif: bingkai foto, banner & spanduk, desain grafis, dan paket edit video beserta daftar harga."
+    />
+    <meta name="theme-color" content="#14213D" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/variables.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314213D'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' fill='%23C9A24B' text-anchor='middle'%3ESK%3C/text%3E%3C/svg%3E"
+    />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("sk-theme");
+          if (t) document.documentElement.setAttribute("data-theme", t);
+          document.documentElement.classList.add("js");
+        } catch (e) {
+          document.documentElement.classList.add("js");
+        }
+      })();
+    </script>
+  </head>
+
+  <body class="page-catalog">
+    <a class="visually-hidden-focusable" href="#main">Lewati ke konten utama</a>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header is-solid" id="siteHeader">
+      <div class="container">
+        <div class="header-inner">
+          <a class="brand" href="index.html" aria-label="Beranda Studio Kreatif">
+            <span class="brand-mark" aria-hidden="true">SK</span>
+            <span class="brand-text">
+              <strong data-brand>Studio Kreatif</strong>
+              <small>Desain â€¢ Cetak â€¢ Video</small>
+            </span>
+          </a>
+
+          <ul class="nav-menu d-none d-lg-flex">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a class="is-active" href="katalog.html">Katalog</a></li>
+            <li><a href="lokasi.html">Lokasi</a></li>
+          </ul>
+
+          <div class="header-actions">
+            <button
+              class="icon-btn theme-toggle"
+              id="themeToggle"
+              type="button"
+              aria-label="Aktifkan mode gelap"
+              title="Ganti tema"
+            >
+              <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+              <i class="bi bi-sun-fill" aria-hidden="true"></i>
+            </button>
+            <a class="btn btn-gold btn-sm d-none d-sm-inline-flex" href="#" data-wa>
+              Mulai Pesan
+            </a>
+            <button
+              class="menu-toggle d-lg-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobileMenu"
+              aria-controls="mobileMenu"
+              aria-label="Buka menu"
+            >
+              <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= OFFCANVAS ================= -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="mobileMenu"
+      aria-labelledby="mobileMenuLabel"
+    >
+      <div class="offcanvas-header">
+        <span class="brand" id="mobileMenuLabel">
+          <span class="brand-mark" aria-hidden="true">SK</span>
+          <span class="brand-text">
+            <strong data-brand>Studio Kreatif</strong>
+            <small>Desain â€¢ Cetak â€¢ Video</small>
+          </span>
+        </span>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Tutup menu"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column">
+        <nav class="nav flex-column mb-4">
+          <a class="nav-link" href="index.html">Beranda</a>
+          <a class="nav-link is-active" href="katalog.html">Katalog</a>
+          <a class="nav-link" href="lokasi.html">Lokasi</a>
+        </nav>
+        <a class="btn btn-gold w-100 mb-3" href="#" data-wa>Mulai Pesan</a>
+        <a class="btn btn-outline-navy w-100" href="#" data-wa>Chat WhatsApp</a>
+        <div class="offcanvas-contact mt-4">
+          <div class="mb-2"><i class="bi bi-geo-alt text-gold me-2"></i><span data-address>Alamat studio</span></div>
+          <div class="mb-2"><i class="bi bi-telephone text-gold me-2"></i><span data-phone>Nomor WhatsApp</span></div>
+          <div><i class="bi bi-envelope text-gold me-2"></i><a data-email href="#">email</a></div>
+        </div>
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- ================= PAGE HERO ================= -->
+      <section class="page-hero">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Katalog</li>
+            </ol>
+          </nav>
+          <h1>Katalog &amp; Harga</h1>
+          <p>
+            Pilih layanan dan ukuran yang Anda butuhkan. Semua harga di halaman
+            ini adalah contoh (dummy) dan dapat diubah sesuai bisnis Anda.
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= KATALOG ================= -->
+      <section class="section" id="katalog" aria-labelledby="katalogTitle">
+        <div class="container">
+          <div class="row align-items-end g-4 mb-4">
+            <div class="col-lg-7 reveal">
+              <span class="eyebrow">Katalog Produk</span>
+              <h2 class="section-title" id="katalogTitle">Pilih sesuai kebutuhan.</h2>
+              <p class="section-subtitle">
+                Filter kategori, lalu chat kami untuk konfirmasi ukuran, bahan, dan
+                ketersediaan.
+              </p>
+            </div>
+            <div class="col-lg-5 reveal">
+              <div class="filter-bar justify-content-lg-end" role="group" aria-label="Filter kategori">
+                <button class="filter-btn is-active" type="button" data-filter="all">Semua</button>
+                <button class="filter-btn" type="button" data-filter="bingkai">Bingkai</button>
+                <button class="filter-btn" type="button" data-filter="banner">Banner</button>
+                <button class="filter-btn" type="button" data-filter="desain">Desain</button>
+                <button class="filter-btn" type="button" data-filter="video">Video</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- Bingkai -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="bingkai">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Bingkai</span>
+                  <img src="https://picsum.photos/seed/sk-cat-kayu/640/480" alt="Bingkai kayu natural" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Bingkai Kayu Natural</h3>
+                  <p>Ukuran 8R (20Ã—25 cm). Kayu solid dengan finishing doff hangat.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 85.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Bingkai Kayu Natural 8R (20x25 cm).">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="bingkai">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Bingkai</span>
+                  <img src="https://picsum.photos/seed/sk-cat-alu/640/480" alt="Bingkai aluminium hitam" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Bingkai Aluminium Hitam</h3>
+                  <p>Ukuran 10R (25Ã—30 cm). Profil tipis modern, cocok untuk kantor.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 120.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Bingkai Aluminium Hitam 10R (25x30 cm).">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="bingkai">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Bingkai</span>
+                  <img src="https://picsum.photos/seed/sk-cat-gold/640/480" alt="Bingkai emas klasik" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Bingkai Emas Klasik</h3>
+                  <p>Ukuran 12R (30Ã—40 cm). Ornamen klasik untuk momen istimewa.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 165.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Bingkai Emas Klasik 12R (30x40 cm).">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="bingkai">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Bingkai</span>
+                  <img src="https://picsum.photos/seed/sk-cat-white/640/480" alt="Bingkai minimalis putih" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Bingkai Minimalis Putih</h3>
+                  <p>Ukuran A4. Desain bersih, serasi untuk interior terang.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 110.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Bingkai Minimalis Putih ukuran A4.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="bingkai">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Bingkai</span>
+                  <img src="https://picsum.photos/seed/sk-cat-big/640/480" alt="Bingkai besar premium" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Bingkai Besar Premium</h3>
+                  <p>Ukuran 50Ã—70 cm. Kaca anti-glare, cocok untuk ruang tamu.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 420.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Bingkai Besar Premium 50x70 cm.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Banner -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="banner">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Banner</span>
+                  <img src="https://picsum.photos/seed/sk-cat-flexi/640/480" alt="Spanduk flexi" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Spanduk Flexi 280gr</h3>
+                  <p>Cetak per meter persegi. Kuat untuk luar ruang jangka pendek.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 25.000<small>per mÂ²</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Spanduk Flexi 280gr. Mohon info ukuran dan harga.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="banner">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Banner</span>
+                  <img src="https://picsum.photos/seed/sk-cat-albatros/640/480" alt="Banner albatros indoor" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Banner Albatros Indoor</h3>
+                  <p>Warna tajam untuk indoor. Ideal untuk backdrop dan dekorasi.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 70.000<small>per mÂ²</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Banner Albatros Indoor. Mohon info ukuran dan harga.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="banner">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Banner</span>
+                  <img src="https://picsum.photos/seed/sk-cat-xbanner/640/480" alt="X-Banner" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>X-Banner 60Ã—160</h3>
+                  <p>Rangka X praktis, mudah dipasang dan dipindahkan.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 150.000<small>per unit</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan X-Banner 60x160 cm.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="banner">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Banner</span>
+                  <img src="https://picsum.photos/seed/sk-cat-rollup/640/480" alt="Roll-up banner" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Roll-Up Banner 80Ã—200</h3>
+                  <p>Rangka gulung aluminium dengan tas jinjing. Elegan untuk event.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 325.000<small>per unit</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Roll-Up Banner 80x200 cm.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Desain -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="desain">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Desain</span>
+                  <img src="https://picsum.photos/seed/sk-cat-feed/640/480" alt="Desain feed sosial media" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Desain Feed Sosial Media</h3>
+                  <p>Paket 3 desain feed + caption. Konsisten dengan identitas brand.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 75.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Desain Feed Sosial Media (paket 3 desain).">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="desain">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Desain</span>
+                  <img src="https://picsum.photos/seed/sk-cat-logo/640/480" alt="Desain logo dan brand guideline" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Paket Logo + Brand Guideline</h3>
+                  <p>Logo primer, sekunder, palet warna, tipografi, dan panduan pakai.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 650.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Paket Logo + Brand Guideline.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Video -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="video">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Video</span>
+                  <img src="https://picsum.photos/seed/sk-cat-reels/640/480" alt="Editing video reels" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Edit Reels / TikTok / Shorts</h3>
+                  <p>Durasi 30â€“60 detik, subtitle, musik, dan transisi dinamis.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 150.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Edit Reels/TikTok/Shorts.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="video">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Video</span>
+                  <img src="https://picsum.photos/seed/sk-cat-company/640/480" alt="Video company profile" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Video Company Profile</h3>
+                  <p>Konsep, editing, motion graphic, dan subtitle. Durasi 1â€“2 menit.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 1.500.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Video Company Profile.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal" data-category="video">
+              <article class="product-card">
+                <div class="product-media">
+                  <span class="product-badge">Video</span>
+                  <img src="https://picsum.photos/seed/sk-cat-wedding/640/480" alt="Wedding cinematic video" width="640" height="480" loading="lazy" />
+                </div>
+                <div class="product-body">
+                  <h3>Wedding Cinematic</h3>
+                  <p>Highlight 3â€“5 menit, color grading sinematik, dan musik pilihan.</p>
+                  <div class="product-foot">
+                    <div class="product-price">Rp 2.500.000<small>mulai dari</small></div>
+                    <a class="btn btn-outline-navy btn-sm" href="#" data-wa data-wa-text="Halo, saya ingin pesan Wedding Cinematic Video.">Tanya</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="text-center mt-5 reveal">
+            <a class="btn btn-gold" href="#" data-wa>
+              <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Tanya &amp; Pesan via WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= HARGA ================= -->
+      <section class="section section-alt" id="harga" aria-labelledby="hargaTitle">
+        <div class="container">
+          <div class="section-head mx-auto text-center mb-4 reveal">
+            <span class="eyebrow">Daftar Harga</span>
+            <h2 class="section-title" id="hargaTitle">Transparan sejak awal.</h2>
+            <p class="section-subtitle">
+              Harga contoh. Biaya final tergantung ukuran, bahan, dan tingkat
+              kesulitan desain.
+            </p>
+          </div>
+
+          <ul class="nav nav-pills nav-pills-sk justify-content-center mb-4 reveal" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="tab-bingkai" data-bs-toggle="pill" data-bs-target="#pane-bingkai" type="button" role="tab" aria-controls="pane-bingkai" aria-selected="true">
+                Bingkai Foto
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tab-banner" data-bs-toggle="pill" data-bs-target="#pane-banner" type="button" role="tab" aria-controls="pane-banner" aria-selected="false">
+                Banner &amp; Spanduk
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tab-video" data-bs-toggle="pill" data-bs-target="#pane-video" type="button" role="tab" aria-controls="pane-video" aria-selected="false">
+                Paket Video
+              </button>
+            </li>
+          </ul>
+
+          <div class="tab-content reveal">
+            <div class="tab-pane fade show active" id="pane-bingkai" role="tabpanel" aria-labelledby="tab-bingkai" tabindex="0">
+              <div class="pricing-table">
+                <div class="table-responsive">
+                  <table class="table table-sk align-middle mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Ukuran</th>
+                        <th scope="col">Dimensi</th>
+                        <th scope="col">Harga mulai</th>
+                        <th scope="col">Keterangan</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><td>2R</td><td>6 Ã— 9 cm</td><td class="price-cell">Rp 30.000</td><td>Bingkai meja kecil</td></tr>
+                      <tr><td>3R</td><td>8,9 Ã— 12,7 cm</td><td class="price-cell">Rp 35.000</td><td>Tanpa bingkai tersedia</td></tr>
+                      <tr><td>4R</td><td>10 Ã— 15 cm</td><td class="price-cell">Rp 45.000</td><td>Ukuran paling populer</td></tr>
+                      <tr><td>5R</td><td>12,7 Ã— 17,8 cm</td><td class="price-cell">Rp 55.000</td><td>Bingkai meja / dinding</td></tr>
+                      <tr><td>6R</td><td>15,2 Ã— 20,3 cm</td><td class="price-cell">Rp 65.000</td><td>Bingkai meja / dinding</td></tr>
+                      <tr><td>8R</td><td>20 Ã— 25 cm</td><td class="price-cell">Rp 85.000</td><td>Bingkai dinding</td></tr>
+                      <tr><td>10R</td><td>25 Ã— 30 cm</td><td class="price-cell">Rp 120.000</td><td>Bingkai dinding</td></tr>
+                      <tr><td>12R</td><td>30 Ã— 40 cm</td><td class="price-cell">Rp 165.000</td><td>Bingkai dinding besar</td></tr>
+                      <tr><td>A4</td><td>21 Ã— 29,7 cm</td><td class="price-cell">Rp 110.000</td><td>Cocok untuk kantor</td></tr>
+                      <tr><td>A3</td><td>29,7 Ã— 42 cm</td><td class="price-cell">Rp 190.000</td><td>Poster / foto besar</td></tr>
+                      <tr><td>40Ã—60</td><td>40 Ã— 60 cm</td><td class="price-cell">Rp 290.000</td><td>Bingkai premium</td></tr>
+                      <tr><td>50Ã—70</td><td>50 Ã— 70 cm</td><td class="price-cell">Rp 420.000</td><td>Bingkai premium</td></tr>
+                      <tr><td>60Ã—90</td><td>60 Ã— 90 cm</td><td class="price-cell">Rp 620.000</td><td>Bingkai premium</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <p class="small text-muted-2 mt-3 mb-0">
+                * Tambahan kaca anti-glare, matboard, dan kertas canvas dihitung terpisah.
+              </p>
+            </div>
+
+            <div class="tab-pane fade" id="pane-banner" role="tabpanel" aria-labelledby="tab-banner" tabindex="0">
+              <div class="pricing-table">
+                <div class="table-responsive">
+                  <table class="table table-sk align-middle mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Bahan / Layanan</th>
+                        <th scope="col">Satuan</th>
+                        <th scope="col">Harga</th>
+                        <th scope="col">Keterangan</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><td>Flexi 280gr</td><td>per mÂ²</td><td class="price-cell">Rp 25.000</td><td>Outdoor jangka pendek</td></tr>
+                      <tr><td>Flexi 340gr</td><td>per mÂ²</td><td class="price-cell">Rp 35.000</td><td>Lebih tebal &amp; kuat</td></tr>
+                      <tr><td>Flexi 440gr</td><td>per mÂ²</td><td class="price-cell">Rp 45.000</td><td>Premium outdoor</td></tr>
+                      <tr><td>Albatros Indoor</td><td>per mÂ²</td><td class="price-cell">Rp 70.000</td><td>Warna tajam, indoor</td></tr>
+                      <tr><td>Vinyl</td><td>per mÂ²</td><td class="price-cell">Rp 90.000</td><td>Stiker vinyl premium</td></tr>
+                      <tr><td>Finishing mata ayam</td><td>per titik</td><td class="price-cell">Rp 5.000</td><td>Ring logam</td></tr>
+                      <tr><td>Finishing lipat jahit</td><td>per meter</td><td class="price-cell">Rp 10.000</td><td>Penguat tepi</td></tr>
+                      <tr><td>X-Banner 60Ã—160</td><td>per unit</td><td class="price-cell">Rp 150.000</td><td>Termasuk rangka</td></tr>
+                      <tr><td>Roll-Up 80Ã—200</td><td>per unit</td><td class="price-cell">Rp 325.000</td><td>Termasuk tas jinjing</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <p class="small text-muted-2 mt-3 mb-0">
+                * Rumus: (Panjang Ã— Lebar Ã— harga per mÂ² Ã— qty) + biaya finishing.
+              </p>
+            </div>
+
+            <div class="tab-pane fade" id="pane-video" role="tabpanel" aria-labelledby="tab-video" tabindex="0">
+              <div class="pricing-table">
+                <div class="table-responsive">
+                  <table class="table table-sk align-middle mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Fitur</th>
+                        <th scope="col">Basic</th>
+                        <th scope="col">Standard</th>
+                        <th scope="col">Premium</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><td>Harga</td><td class="price-cell">Rp 350.000</td><td class="price-cell">Rp 850.000</td><td class="price-cell">Rp 2.500.000</td></tr>
+                      <tr><td>Durasi</td><td>â‰¤ 30 detik</td><td>â‰¤ 90 detik</td><td>â‰¤ 5 menit</td></tr>
+                      <tr><td>Jumlah revisi</td><td>1Ã—</td><td>2Ã—</td><td>3Ã—</td></tr>
+                      <tr><td>Resolusi</td><td>1080p</td><td>1080p</td><td>4K</td></tr>
+                      <tr><td>Musik &amp; subtitle</td><td>Termasuk</td><td>Termasuk</td><td>Termasuk</td></tr>
+                      <tr><td>Motion graphic</td><td>â€”</td><td>Sederhana</td><td>Custom</td></tr>
+                      <tr><td>Waktu pengerjaan</td><td>2â€“3 hari</td><td>3â€“5 hari</td><td>7â€“10 hari</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <p class="small text-muted-2 mt-3 mb-0">
+                * Harga belum termasuk shooting. Silakan konsultasikan kebutuhan Anda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CTA ================= -->
+      <section class="section" aria-labelledby="ctaKatalogTitle">
+        <div class="container">
+          <div class="cta-band reveal">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-8">
+                <span class="eyebrow text-warning">Butuh ukuran custom?</span>
+                <h2 id="ctaKatalogTitle">Kami bantu hitung dan pilih bahan terbaik.</h2>
+                <p class="mt-3">
+                  Kirim ukuran, foto referensi, atau brief desain Anda. Tim kami akan
+                  merekomendasikan pilihan paling efisien.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex flex-wrap gap-3 justify-content-lg-end">
+                  <a class="btn btn-gold" href="#" data-wa>
+                    <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Konsultasi Gratis
+                  </a>
+                  <a class="btn btn-ghost-light" href="lokasi.html">Lihat Lokasi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <a class="brand footer-brand" href="index.html">
+              <span class="brand-mark" aria-hidden="true">SK</span>
+              <span class="brand-text">
+                <strong data-brand>Studio Kreatif</strong>
+                <small>Desain â€¢ Cetak â€¢ Video</small>
+              </span>
+            </a>
+            <p>
+              Studio kreatif untuk cetak foto berbingkai, banner &amp; spanduk,
+              desain grafis, dan produksi video.
+            </p>
+            <div class="social-links">
+              <a href="#" data-social="instagram" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+              <a href="#" data-social="tiktok" aria-label="TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+              <a href="#" data-social="facebook" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+              <a href="#" data-wa aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3>Layanan</h3>
+            <ul class="footer-links">
+              <li><a href="katalog.html?kategori=bingkai">Cetak Foto &amp; Bingkai</a></li>
+              <li><a href="katalog.html?kategori=banner">Banner &amp; Spanduk</a></li>
+              <li><a href="katalog.html?kategori=desain">Desain Grafis</a></li>
+              <li><a href="katalog.html?kategori=video">Edit Video</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3>Bantuan</h3>
+            <ul class="footer-links">
+              <li><a href="katalog.html#harga">Daftar Harga</a></li>
+              <li><a href="lokasi.html#faq">FAQ</a></li>
+              <li><a href="lokasi.html#kontak">Kontak</a></li>
+              <li><a href="lokasi.html">Lokasi Studio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>Kontak</h3>
+            <ul class="footer-contact">
+              <li><i class="bi bi-geo-alt" aria-hidden="true"></i><span data-address>Alamat studio</span></li>
+              <li><i class="bi bi-whatsapp" aria-hidden="true"></i><a href="#" data-wa><span data-phone>Nomor WhatsApp</span></a></li>
+              <li><i class="bi bi-envelope" aria-hidden="true"></i><a data-email href="mailto:dikyanwar22@gmail.com">dikyanwar22@gmail.com</a></li>
+              <li><i class="bi bi-clock" aria-hidden="true"></i><span>Senin – Minggu 08.00 – 18.00 WIB</span></li>
+            </ul>
+            <div class="pay-badges mt-3">
+              <span>Transfer Bank</span>
+              <span>QRIS</span>
+              <span>E-Wallet</span>
+              <span>COD*</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
+          <span>Â© <span data-year>2026</span> <span data-brand>Studio Kreatif</span>. Semua hak dilindungi.</span>
+          <span class="d-flex gap-3">
+            <a href="lokasi.html#faq">Kebijakan Privasi</a>
+            <a href="lokasi.html#faq">Syarat &amp; Ketentuan</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================= FLOATING ACTIONS ================= -->
+    <div class="floating-actions" aria-label="Aksi cepat">
+      <a class="fab fab-wa" href="#" data-wa aria-label="Chat WhatsApp" title="Chat WhatsApp">
+        <i class="bi bi-whatsapp" aria-hidden="true"></i>
+      </a>
+      <button class="fab fab-top" id="scrollTop" type="button" aria-label="Kembali ke atas" title="Kembali ke atas">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <!-- ================= TOAST ================= -->
+    <div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3 mb-5">
+      <div id="siteToast" class="toast align-items-center border-0" role="status" aria-live="polite" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body"></div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Tutup"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
